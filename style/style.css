@@ -1,12 +1,14 @@
 @charset "UTF-8";
 body {
-  background: #d4d48a; }
+  background: #d4d48a;
+  margin: 0;
+  padding: 0; }
 
-.container {
-  width: 50%;
+.analog {
+  width: 30%;
   margin: 100px auto;
   position: relative; }
-  .container img {
+  .analog img {
     display: block;
     width: 100%;
     margin: auto;
@@ -14,10 +16,10 @@ body {
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none; }
-  .container div img {
+  .analog div img {
     position: absolute;
     top: 0; }
-  .container div #hour {
+  .analog div #hour {
     z-index: 1;
     			/*
     			╤Й╨╛╨▒ ╨┐╨╛╨▓╨╡╤А╨╜╤Г╤В╨╕ ╨╡╨╗╨╡╨╝╨╡╨╜╤В
@@ -25,19 +27,21 @@ body {
       			-o-transform: rotate(30deg);   Opera 
       			-webkit-transform: rotate(30deg);   Safari y Chrome 
       			*/ }
-  .container div #minute {
+  .analog div #minute {
     z-index: 2; }
-  .container div #second {
+  .analog div #second {
     z-index: 3; }
 
 .digital {
-  float: bottom; }
+  margin-top: 5%;
+  margin-right: auto;
+  margin-left: auto; }
   .digital ul {
-    margin-right: 10%;
+    margin: auto;
     display: block;
-    text-align: right;
-    font-size: 1.5em;
-    font-family: 'Freehand521 BT', sans-serif; }
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Freehand521 BT','Play', sans-serif; }
     .digital ul li {
       display: inline; }
 

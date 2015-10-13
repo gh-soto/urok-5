@@ -1,9 +1,11 @@
 body {
 	background: #d4d48a;
+	margin: 0;
+	padding: 0;
 }
 
-.container {
-	width: 50%;
+.analog {
+	width: 30%;
 	margin: 100px auto;
 	
 	position: relative;
@@ -50,18 +52,25 @@ body {
 		#second {
 			z-index: 3;
 
+
 		}
 	}
 }
 
 .digital {
-	float: bottom;
+	margin-top: 5%;
+	margin-right: auto;
+	margin-left: auto;
+
+
 	ul {
-		margin-right: 10%;
+		
+		margin: auto;
 		display: block;
-		text-align: right;
-		font-size: 1.5em;
-		font-family: 'Freehand521 BT', sans-serif;
+		text-align: center;
+
+		font-size: 5em;
+		font-family: 'Freehand521 BT','Play', sans-serif;
 		
 		li {
 			
