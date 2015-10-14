@@ -4,6 +4,32 @@ body {
 	padding: 0;
 }
 
+.container {
+	margin: 100px auto;
+	text-align: center;
+}
+
+.container2 {
+	text-align: left;
+	form{
+		input{
+			margin-bottom: 20px;
+			width: 50%;
+		}
+		textarea {
+			margin-bottom: 20px;
+			min-width: 50%;
+			width: 50%;
+			min-height: 70px;
+
+		}
+		input[type=submit] {
+			width: 25%;
+			
+		}
+	}
+}
+
 .analog {
 	width: 30%;
 	margin: 100px auto;
